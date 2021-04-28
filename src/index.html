@@ -1,13 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <h1>Hello Mate Academy</h1>
+
+  <body class="page light-theme">
+    <header class="header block">
+      <div class="header_title">Backendless</div>
+      <div class="header_theme-large">
+        <input
+          id="theme-light"
+          class="theme-light"
+          name="radio"
+          type="radio"
+          checked
+        >
+        <label for="theme-light">Light Theme</label>
+        <input
+          id="theme-dark"
+          name="radio"
+          class="theme-dark"
+          type="radio"
+        >
+        <label for="theme-dark">Dark Theme</label>
+        <input
+          id="theme-gray"
+          name="radio"
+          class="theme-gray"
+          type="radio"
+        >
+        <label for="theme-gray">Gray Theme</label>
+      </div>
+      <div class="header_theme-medium">
+        <button class="theme-light-button" type="button">Light Theme</button>
+        <button class="theme-dark-button" type="button">Dark Theme</button>
+        <button class="theme-gray-button" type="button">Gray Theme</button>
+      </div>
+      <div class="header_theme-small">
+        <select class="header__selector">
+          <option value="theme-light">Light Theme</option>
+          <option value="theme-dark">Dark Theme</option>
+          <option value="theme-gray">Gray Theme</option>
+        </select>
+      </div>
+    </header>
+    <main class="main block">
+      <h1 class="gallery_title">Backendless Gallery</h1>
+      <div class="gallery">
+        <div class="div1"><img src="https://a.radikal.ru/a27/2104/39/5f92ba33e327.png" alt="image"></div>
+        <div class="div2"><img src="https://a.radikal.ru/a27/2104/39/5f92ba33e327.png" alt="image"> </div>
+        <div class="div3"><img src="https://a.radikal.ru/a27/2104/39/5f92ba33e327.png" alt="image"> </div>
+        <div class="div4"><img src="https://a.radikal.ru/a27/2104/39/5f92ba33e327.png" alt="image"> </div>
+        <div class="div5"><img src="https://a.radikal.ru/a27/2104/39/5f92ba33e327.png" alt="image"> </div>
+        <div class="div6"><img src="https://a.radikal.ru/a27/2104/39/5f92ba33e327.png" alt="image"> </div>
+        <div class="div7"> <img src="https://a.radikal.ru/a27/2104/39/5f92ba33e327.png" alt="image"></div>
+        <div class="div8"> <img src="https://a.radikal.ru/a27/2104/39/5f92ba33e327.png" alt="image"></div>
+        <div class="div9"> <img src="https://a.radikal.ru/a27/2104/39/5f92ba33e327.png" alt="image"></div>
+        <div class="div10"> <img src="https://a.radikal.ru/a27/2104/39/5f92ba33e327.png" alt="image"></div>
+        <div class="div11"> <img src="https://a.radikal.ru/a27/2104/39/5f92ba33e327.png" alt="image"></div>
+        <div class="div12"><img src="https://a.radikal.ru/a27/2104/39/5f92ba33e327.png" alt="image"> </div>
+      </div>
+    </main>
+    <footer class="footer block">
+      <div class="footer_information">
+        <div class="site"><a href="https://backendless.com/">Backendless.com</a></div>
+        <div class="phone"><a href="tel:555-555-555">555-555-555</a></div>
+      </div>
+      <div class="footer_social">
+        <a href="#"><img src="https://img.icons8.com/metro/26/000000/instagram-new.png" alt="image" /></a>
+
+        <a href="#"><img src="https://img.icons8.com/windows/26/000000/facebook.png" alt="image" /></a>
+
+        <a href="#"><img src="https://img.icons8.com/ios/26/000000/twitter-squared.png" alt="image" /></a>
+
+        <a href="#"> <img src="https://img.icons8.com/ios-glyphs/26/000000/telegram-app.png" alt="image" /></a>
+
+        <a href="#"><img src="https://img.icons8.com/windows/26/000000/youtube-play.png" alt="image" /></a>
+
+        <a href="#"><img src="https://img.icons8.com/metro/26/000000/vk-com--v1.png" alt="image" /></a>
+
+        <a href="#"><img src="https://img.icons8.com/ios/26/000000/apple-mail.png" alt="image" /></a>
+      </div>
+    </footer>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
+
 </html>
